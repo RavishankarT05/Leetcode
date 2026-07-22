@@ -6,5 +6,3 @@ class Solution(object):
                 if nums[i]+nums[j]<target:
                     count+=1
         return count
-
-        
