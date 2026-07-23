@@ -6,6 +6,7 @@ class Solution(object):
                 if nums[i]+nums[j]==target:
                     a.append(i)
                     a.append(j)
+                    break
         return list(set(a))
 
 
