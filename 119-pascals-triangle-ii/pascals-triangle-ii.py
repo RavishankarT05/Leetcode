@@ -8,5 +8,5 @@ class Solution(object):
                 b.append(count)        
                 count=count*(i-j)//(j+1)
             a.append(b)
-        return a[-1]
+        return a[rowIndex]
         
