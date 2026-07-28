@@ -1,12 +1,11 @@
 class Solution(object):
     def repeatedNTimes(self, nums):
-        count=1
-        b=set(nums)
-        for i in b:
-            c=nums.count(i)
-            if count<c:
+        b=set()
+        for i in nums:
+            if i in b:
                 return i
-#         return a
+            b.add(i)
+
 # class Solution:
 #     def repeatedNTimes(self, nums):
 #         seen = set()
