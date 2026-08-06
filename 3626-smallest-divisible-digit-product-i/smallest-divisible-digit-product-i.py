@@ -8,13 +8,10 @@ class Solution(object):
                 a=z%10
                 product*=a
                 z//=10
-           
             a=product%t
             if a==0:
-               
                 return n
             else:
-              
                 return eg(n+1)
         
         return eg(n)
