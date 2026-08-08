@@ -3,7 +3,7 @@ class Solution(object):
         nums.sort()
         a=[]
         z,y=0,1
-        while z<len(nums):
+        for _ in range(len(nums)/2):
             a.append(max(nums[z],nums[y]))
             a.append(min(nums[z],nums[y]))
             z+=2
