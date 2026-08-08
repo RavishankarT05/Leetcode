@@ -7,7 +7,6 @@ class Solution(object):
         index=1
         while True:
             if s<=count:
-                print(count)
                 return index
             else:
                 count+=capacity[a]
