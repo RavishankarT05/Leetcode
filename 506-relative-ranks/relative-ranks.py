@@ -1,15 +1,14 @@
 class Solution:
     def findRelativeRanks(self, nums):
-        ans = []
-        sorted_nums = sorted(nums, reverse=True)
-        for n in nums:
-            rank = sorted_nums.index(n)
-            if rank == 0:
-                ans.append('Gold Medal')
-            elif rank == 1:
-                ans.append('Silver Medal')
-            elif rank == 2:
-                ans.append('Bronze Medal')
+        a=[]
+        s=sorted(nums,reverse=True)
+        for i in nums:
+            if s.index(i)==0:
+                a.append("Gold Medal")
+            elif s.index(i)==1:
+                a.append("Silver Medal")
+            elif s.index(i)==2:
+                a.append("Bronze Medal")
             else:
-                ans.append(str(rank + 1))
-        return ans
+                a.append(str(s.index(i)+1))
+        return a
