@@ -1,6 +1,5 @@
 class Solution:
     def findErrorNums(self, nums):
-        nums.sort()
         m=sum(nums)-sum(set(nums))
         exp =len(nums)*(len(nums)+1)//2
         print(exp)
