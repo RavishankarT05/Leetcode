@@ -1,14 +1,11 @@
 class Solution:
     def findErrorNums(self, nums):
-        dup, missing = -1, -1
+        nums.sort()
+        m=sum(nums)-sum(set(nums))
+        exp =len(nums)*(len(nums)+1)//2
+        print(exp)
+        t= exp-sum(set(nums))
+        return  [m,t]
         
-        for i in range(1, len(nums) + 1):
-            count = nums.count(i)
-            if count == 2:
-                dup = i
-            elif count == 0:
-                missing = i
-        
-        return [dup, missing]
 
 
