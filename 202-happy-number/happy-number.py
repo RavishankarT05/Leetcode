@@ -6,7 +6,6 @@ class Solution(object):
             n=sum(n)
             if n==1:
                 return True
-            print(n)
         else:
             return False
 
