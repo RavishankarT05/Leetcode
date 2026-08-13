@@ -1,0 +1,11 @@
+class Solution(object):
+    def canAliceWin(self, nums):
+        a=0
+        b=0
+        for i in nums:
+            if 0<i<10:
+                a+=i
+            else:
+                b+=i
+        print(a,b)
+        return a!=b
