@@ -7,5 +7,4 @@ class Solution(object):
                 a+=i
             else:
                 b+=i
-        print(a,b)
         return a!=b
