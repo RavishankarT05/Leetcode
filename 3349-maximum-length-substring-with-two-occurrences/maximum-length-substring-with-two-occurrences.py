@@ -1,7 +1,6 @@
 class Solution(object):
     def maximumLengthSubstring(self, s):
         s=list(s)
-        count=0
         a=[]
         b=[]
         z=0
