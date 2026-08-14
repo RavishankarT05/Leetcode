@@ -4,4 +4,6 @@ class Solution(object):
         while a!=0:
             nums.remove(val)
             a-=1
-        
+
+            
+
