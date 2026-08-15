@@ -16,10 +16,6 @@ class Solution(object):
                 a+=1
                 b+=1
         if b==d:
-            print(count)
-            print(a,b)
-            if b==0:
-                return -1
             return a-b
         else:
             return -1
