@@ -7,7 +7,6 @@ class Solution(object):
                 break
             if len(nums)==0:
                 break
-            con+=int(str(nums[0]) + str(nums[-1]))
-            nums=nums[1:-1:]
+            con+=int(str(nums.pop(0)) + str(nums.pop()))
         return con
         
