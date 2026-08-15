@@ -9,7 +9,4 @@ class Solution(object):
             if j>=len(nums):
                 i+=1
                 j=i
-
-
-
         return [-1,-1]
