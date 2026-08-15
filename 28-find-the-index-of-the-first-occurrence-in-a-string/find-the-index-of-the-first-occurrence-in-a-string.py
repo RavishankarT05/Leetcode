@@ -4,8 +4,7 @@ class Solution(object):
         a,b=0,0
         c=len(haystack)
         d=len(needle)
-        if c<d:
-            return -1
+
         while a<c and b<d:
             if haystack[a]!=needle[b]:
                 count+=1
