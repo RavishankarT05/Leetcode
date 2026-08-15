@@ -8,5 +8,7 @@ class Solution(object):
                 j+=1
             if j>=len(nums):
                 i+=1
-                j=i
+                j=i+1
+            if j>=len(nums):
+                break
         return [-1,-1]
