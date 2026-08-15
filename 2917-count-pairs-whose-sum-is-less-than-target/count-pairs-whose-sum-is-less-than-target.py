@@ -8,9 +8,7 @@ class Solution(object):
                 j+=1
             else:
                 j+=1
-            if j<len(nums):
-                pass
-            else:  
+            if j==len(nums):
                 i+=1
                 j=i+1 
         return count
