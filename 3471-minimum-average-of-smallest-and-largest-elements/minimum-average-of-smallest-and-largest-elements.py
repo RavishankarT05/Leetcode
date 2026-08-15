@@ -4,7 +4,6 @@ class Solution(object):
         z=[]
         a,b=0,-1
         while True:
-            print(nums)
             z.append((nums[a]+nums[b])/2.0)
             nums.remove(nums[a])
             nums.remove(nums[b])
