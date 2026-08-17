@@ -7,6 +7,7 @@ class Solution(object):
             for j in range(len(arr2)):
                 if abs(arr1[i]-arr2[j])<= d:
                     count+=1
+                    continue
             if count==f:
                 ans+=1
             else:
