@@ -1,10 +1,8 @@
 class Solution(object):
     def isPowerOfFour(self, n):
-        a=0
-        while 4**a<=n:
-            if 4**a==n:
-                return True
-            else:
-                a+=1
-        return False
+        if n<=0:
+            return False
+        while n%4==0:
+            n//=4
+        return n==1
         
