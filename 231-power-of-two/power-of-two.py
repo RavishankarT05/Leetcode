@@ -1,9 +1,7 @@
 class Solution(object):
     def isPowerOfTwo(self, n):
-        a=0
-        while (2**a)<=n:
-            if (2**a)==n:
-                return True
-            else:
-                a+=1
-        return False
+        if n<=0:
+            return False
+        while n%2==0:
+            n//=2
+        return n==1
