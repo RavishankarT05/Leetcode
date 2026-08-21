@@ -8,8 +8,6 @@ class Solution(object):
         a,b=0,len(num)-1
         while a<b:
             if (num[a]+num[b])==target:
-                print(num)
-                print(nums)
                 c=nums.index(num[a])
                 nums[c]=-1
                 d=nums.index(num[b])
