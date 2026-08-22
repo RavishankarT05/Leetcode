@@ -6,3 +6,4 @@ class Solution(object):
                 return True
             a+=1
         return False
+    
