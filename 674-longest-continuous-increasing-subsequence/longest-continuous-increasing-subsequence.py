@@ -9,5 +9,6 @@ class Solution(object):
                 z.append(count)
                 count=1
         z.append(count)
+        print(z)
         return max(z)
         
