@@ -6,7 +6,7 @@ class Solution(object):
     #                 return [i,j]
         num=sorted(nums)
         a,b=0,len(num)-1
-        while a<b:
+        while True:
             if (num[a]+num[b])==target:
                 c=nums.index(num[a])
                 nums[c]=-1
