@@ -9,5 +9,4 @@ class Solution(object):
                 a.append(count)
                 count=0
         a.append(count)
-        a.sort()
-        return a[-1]
+        return max(a)
