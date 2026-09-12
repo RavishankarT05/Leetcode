@@ -6,7 +6,7 @@ class Solution(object):
             if num==nums:
                 return True
             else:
-                nums=nums[1:]+nums[:1]
+                nums[:]=nums[1:]+nums[:1]
             c-=1
         return False
         
