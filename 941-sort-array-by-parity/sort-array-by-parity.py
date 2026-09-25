@@ -1,9 +1,11 @@
 class Solution(object):
     def sortArrayByParity(self, nums):
-        l,r=0,0
-        while(r<len(nums)):
-            if(nums[r]%2==0):
-                nums[l],nums[r]=nums[r],nums[l]
-                l+=1
-            r+=1
+        a,b=0,len(nums)-1
+        while a<b:
+            if nums[b]%2==0 and nums[a]%2!=0:
+                nums[a],nums[b]=nums[b],nums[a]
+            if nums[a]%2==0:
+                a+=1
+            if nums[b]%2!=0:
+                b-=1
         return nums
