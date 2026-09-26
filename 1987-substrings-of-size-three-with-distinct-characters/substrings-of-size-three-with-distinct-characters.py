@@ -5,7 +5,7 @@ class Solution(object):
         b=1
         c=2
         count=0
-        while a<len(s) and b<len(s) and c<len(s):
+        while c<len(s):
             arr1=[]
             arr1.append(str(s[a]))
             arr1.append(str(s[b]))
