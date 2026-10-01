@@ -1,7 +1,6 @@
 class Solution(object):
     def sortPeople(self, names, heights):
-        h=sorted(heights[:])
-        h.reverse()
+        h=sorted(heights[:],reverse=True)
         arr=[]
         for i in h:
             arr.append(names[heights.index(i)])
