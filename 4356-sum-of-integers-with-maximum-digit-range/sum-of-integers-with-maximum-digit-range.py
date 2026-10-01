@@ -7,8 +7,6 @@ class Solution(object):
             arr.append(max(a)-min(a))
         count=arr.count(max(arr))
         value=max(arr)
-        print(count)
-        print(value)
         for i in range(count):
             ans.append(nums[arr.index(value)])
             arr[arr.index(value)]=-1
