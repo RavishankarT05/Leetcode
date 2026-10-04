@@ -8,9 +8,6 @@ class Solution(object):
             else:
                 arr.append(i)
         arr1=list(set(nums[:]))
-        print(nums)
-        print(arr)
-        print(arr1)
         for i in arr1:
             if nums.count(i) in arr:
                 return True
