@@ -4,8 +4,6 @@ class Solution(object):
         a=sorted(set(str(n)))
         count=1000
         num=0
-        print(arr)
-        print(a)
         for i in a:
             if arr.count(i)<count:
                 count=arr.count(i)
