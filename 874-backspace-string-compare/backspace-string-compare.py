@@ -18,8 +18,7 @@ class Solution(object):
                     pass
                 else:
                     stack2.pop()
-        print(stack1)
-        print(stack2)
+
         if len(stack1)!=len(stack2):
             return False
         for i in range(len(stack1)):
