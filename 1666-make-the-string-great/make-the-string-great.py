@@ -1,6 +1,5 @@
 class Solution(object):
     def makeGood(self, s):
-
         stack=[]
         for i in s:
             if not i.isupper():
