@@ -5,7 +5,6 @@ class Solution(object):
         for i in s:
             if i not in arr:
                 arr.append(i)
-        print(arr)
         while a<len(arr):
             if s.count(arr[a])==1:
                 return s.index(arr[a])
