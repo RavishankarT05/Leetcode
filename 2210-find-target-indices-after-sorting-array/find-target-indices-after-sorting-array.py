@@ -6,3 +6,4 @@ class Solution(object):
             if nums[i]==target:
                 a.append(i)
         return a
+        
